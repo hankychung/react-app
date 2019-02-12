@@ -1,0 +1,22 @@
+div {
+  background: gray
+}
+
+.bigger {
+  font-size: 20px;
+}
+
+.test {
+  background: gray;
+  .inner {
+    background: black;
+    color: white;
+    .bigger;
+  }
+}
+
+:global {
+  .inner {
+    background: green
+  }
+}
